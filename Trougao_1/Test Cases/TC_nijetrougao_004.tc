@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_jednakokraki_002</name>
+   <name>TC_nijetrougao_004</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>904bfcef-2ef4-4e72-933f-55971380811a</testCaseGuid>
+   <testCaseGuid>e6488eee-87f6-4210-9fc6-ec1419a4a711</testCaseGuid>
 </TestCaseEntity>

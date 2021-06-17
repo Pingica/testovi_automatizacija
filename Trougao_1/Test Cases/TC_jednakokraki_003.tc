@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_raznostranicni_003</name>
+   <name>TC_jednakokraki_003</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b821aee6-a964-435b-bb0b-6b3cd9160ab8</testCaseGuid>

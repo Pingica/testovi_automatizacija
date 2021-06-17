@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://iteon.org/qa/01-trougao-v1/')
+
+WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_9f4979'), '1')
+
+WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_de46a7'), '2')
+
+WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_5324ef'), '3')
+
+WebUI.click(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_6bca0c'))
+
+WebUI.verifyElementText(findTestObject('Page_/label_Trougao je raznostranian'), 'Trougao je raznostranican.')
+
+WebUI.closeBrowser()
+

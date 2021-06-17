@@ -27,9 +27,6 @@ WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trou
 
 WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_5324ef'), '3')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_5324ef'), Keys.chord(
-        Keys.ENTER))
-
 WebUI.click(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_6bca0c'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_/label_Trougao je jednakokraki'), 'Trougao je jednakokraki.')
