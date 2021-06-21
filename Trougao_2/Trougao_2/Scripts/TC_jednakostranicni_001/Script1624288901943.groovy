@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://iteon.org/qa/01-trougao-v1/')
+WebUI.navigateToUrl('http://iteon.org/qa/01-trougao-v2/')
 
-WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_9f4979'), '1')
+WebUI.setText(findTestObject('Object Repository/Page_/input_a_a'), '1')
 
-WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_de46a7'), '2')
+WebUI.setText(findTestObject('Object Repository/Page_/input_b_b'), '1')
 
-WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_5324ef'), '3')
+WebUI.setText(findTestObject('Object Repository/Page_/input_c_c'), '1')
 
-WebUI.click(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_6bca0c'))
+WebUI.click(findTestObject('Object Repository/Page_/input_c_izracunaj'))
 
-WebUI.verifyElementText(findTestObject('Page_/label_Trougao je raznostranian'), 'Trougao je raznostraničan.')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_/label_Trougao je jednakostranian'), 'Trougao je jednakostraničan.')
 
 WebUI.closeBrowser()
 
