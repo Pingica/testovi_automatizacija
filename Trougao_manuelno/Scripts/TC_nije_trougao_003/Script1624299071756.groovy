@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('http://iteon.org/qa/01-trougao-v1/')
 
-WebUI.setText(findTestObject('Page_/input_a_a'), '4')
+WebUI.setText(findTestObject('Input_a'), '1')
 
-WebUI.setText(findTestObject('Page_/input_b_b'), '5')
+WebUI.setText(findTestObject('Input_b'), '2')
 
-WebUI.setText(findTestObject('Page_/input_c_c'), '6')
+WebUI.setText(findTestObject('Input_c'), '3')
 
-WebUI.click(findTestObject('Page_/input_c_izracunaj'))
+WebUI.click(findTestObject('Btn_Izracunaj'))
 
-WebUI.verifyElementText(findTestObject('Poruka'), 'Trougao je raznostraničan.')
+WebUI.verifyElementText(findTestObject('Poruka'), 'Nije trougao.')
 
 WebUI.closeBrowser()
 

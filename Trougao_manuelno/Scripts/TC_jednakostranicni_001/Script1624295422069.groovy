@@ -29,3 +29,5 @@ WebUI.click(findTestObject('Btn_Izracunaj'))
 
 WebUI.verifyElementText(findTestObject('Poruka'), 'Trougao je jednakostraničan.')
 
+WebUI.closeBrowser()
+
